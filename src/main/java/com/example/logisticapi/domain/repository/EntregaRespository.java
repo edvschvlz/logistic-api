@@ -6,5 +6,4 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface EntregaRespository extends JpaRepository<Entrega, Long> {
-    boolean findByCliente_Id(Long clienteId);
 }
